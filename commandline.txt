@@ -1,0 +1,31 @@
+In KiTTY some new command-line options are available: 
+-classname:     to define a specific class name for the window
+-cmd:           to define a startup auto-command
+-convert-dir:   convert registry settings to savemode=dir mode
+-convert-reg:   backup session settings from savemode=dir mode to registry
+-edit:          edit the settings of a session
+-fileassoc:     associate .ktx files with KiTTY
+-folder:        directly open a specific folder (for savemode=dir mode only)
+-fullscreen:    start directly in full screen mode
+-keygen:        start the integrated ssh key generator
+-kload:         load a .ktx file (that contains session settings)
+-launcher:      start the session launcher
+-log:           create a log file
+-loginscript:   load a login script file
+-nobgimage:     to disable background image feature
+-noctrltab:     disable CTRL+TAB feature
+-nofiles:       disable the creation of default ini file if it does not exist
+-noicon:        disable icons support
+-noshortcuts:   disable all shortcuts
+-notrans:       disable Transparency support
+-nozmodem:      disable ZModem support
+-pass:          set a password
+-putty:         disable with one option all KiTTY new features
+-runagent:      start the integrated SSH agent
+-send-to-tray:  start a session directly in the system tray (useful for SSH tunnels)
+-sendcmd:       to send a command to all windows with the same class name
+-sshhandler:    create protocols associations (telnet://, ssh://) for internet explorer
+-title:         set a window title
+-version:       only open the about box
+-xpos:          to set the initial X position
+-ypos:          to set the initial Y position
