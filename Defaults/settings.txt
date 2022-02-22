@@ -1,5 +1,12 @@
 LinuxFunctionKeys\1\
 NoApplicationKeys\1\
-Font\Cascadia%20Code\
-FontHeight\10\
+Font\Consolas\
 CurType\2\
+Xterm256Colour\1\
+BoldAsColour\0\
+LineCodePage\UTF-8\
+UseSystemColours\0\
+FontHeight\10\
+FontIsBold\0\
+Beep\2\
+BeepInd\0\

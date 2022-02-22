@@ -27,7 +27,7 @@ def process_file(path, replaces):
 def process_dir(path, replaces):
     for el in path.iterdir():
         if el.is_dir():
-            # process_dir(el, replaces)
+            process_dir(el, replaces)
             pass
         elif el.suffix == '.ktx' or el.name == 'Default%20Settings':
             process_file(el, replaces)
@@ -36,7 +36,7 @@ def process_dir(path, replaces):
 def main():
     replaces = {}
     replaces.update(load_conf(Path('Defaults/settings.txt')))
-    replaces.update(load_conf(Path('Defaults/theme-Solarized-Darcula.txt')))
+    replaces.update(load_conf(Path('Defaults/theme-Dracula.txt')))
     process_dir(Path('Sessions'), replaces)
 
 
