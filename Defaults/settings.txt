@@ -1,0 +1,5 @@
+LinuxFunctionKeys\1\
+NoApplicationKeys\1\
+Font\Cascadia%20Code\
+FontHeight\10\
+CurType\2\
