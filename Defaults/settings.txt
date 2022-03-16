@@ -6,7 +6,10 @@ Xterm256Colour\1\
 BoldAsColour\0\
 LineCodePage\UTF-8\
 UseSystemColours\0\
-FontHeight\10\
+FontHeight\11\
 FontIsBold\0\
 Beep\2\
 BeepInd\0\
+ScrollOnKey\1\
+ScrollOnDisp\0\
+LinesAtAScroll\3\
