@@ -1,7 +1,7 @@
 */*
-*.bak
 *.7z
 *.sav
 *.reg
 !/Defaults/*
 !/Sessions/Default%20Settings
+*.bak
