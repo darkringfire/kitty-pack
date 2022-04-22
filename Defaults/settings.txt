@@ -8,5 +8,6 @@ LineCodePage\UTF-8\
 UseSystemColours\0\
 FontHeight\10\
 FontIsBold\0\
-Beep\2\
+Beep\1\
 BeepInd\0\
+TerminalType\xterm-color\
