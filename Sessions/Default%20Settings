@@ -118,7 +118,7 @@ TermHeight\24\
 Font\Consolas\
 FontIsBold\0\
 FontCharSet\0\
-FontHeight\10\
+FontHeight\11\
 FontQuality\3\
 FontVTMode\4\
 UseSystemColours\0\
@@ -180,8 +180,8 @@ Printer\\
 CapsLockCyr\0\
 ScrollBar\1\
 ScrollBarFullScreen\0\
-ScrollOnKey\0\
-ScrollOnDisp\1\
+ScrollOnKey\1\
+ScrollOnDisp\0\
 EraseToScrollback\1\
 LockSize\0\
 BCE\1\
@@ -297,7 +297,7 @@ CtrlTabSwitch\0\
 Comment\\
 SCPAutoPwd\0\
 NoFocusReporting\1\
-LinesAtAScroll\-1\
+LinesAtAScroll\3\
 SSHTunnelInTitle\0\
 PortKnocking\\
 DisableAltGr\0\

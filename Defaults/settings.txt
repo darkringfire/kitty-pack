@@ -6,8 +6,11 @@ Xterm256Colour\1\
 BoldAsColour\0\
 LineCodePage\UTF-8\
 UseSystemColours\0\
-FontHeight\10\
+FontHeight\11\
 FontIsBold\0\
 Beep\1\
 BeepInd\0\
 TerminalType\xterm-color\
+ScrollOnKey\1\
+ScrollOnDisp\0\
+LinesAtAScroll\3\
