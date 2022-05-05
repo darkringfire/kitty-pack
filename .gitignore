@@ -4,5 +4,6 @@
 *.sav
 *.reg
 !/Defaults/*
-!/Sessions/Default%20Settings
+/Defaults/theme.txt
+#!/Sessions/Default%20Settings
 *.bak

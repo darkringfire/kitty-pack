@@ -36,7 +36,7 @@ def process_dir(path, replaces):
 def main():
     replaces = {}
     replaces.update(load_conf(Path('Defaults/settings.txt')))
-    replaces.update(load_conf(Path('Defaults/theme-Dracula.txt')))
+    replaces.update(load_conf(Path('Defaults/theme.txt')))
     process_dir(Path('Sessions'), replaces)
 
 
