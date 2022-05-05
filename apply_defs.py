@@ -16,7 +16,8 @@ def process_file(path, replaces):
     :type replaces: Dict[string]
     :type path: Path
     """
-    print(path.resolve())
+
+    # print(path.resolve())
     conf = load_conf(path)
     conf.update(replaces)
     # print(*conf.values(), sep='\n', end='\n')
@@ -34,10 +35,25 @@ def process_dir(path, replaces):
 
 
 def main():
+    settings_dir = Path(__file__).parent / 'Defaults'
+    settings_file = settings_dir / 'settings.txt'
+    local_file = settings_dir / 'local.txt'
+    theme_file = settings_dir / 'theme.txt'
+
     replaces = {}
-    replaces.update(load_conf(Path('Defaults/settings.txt')))
-    replaces.update(load_conf(Path('Defaults/theme.txt')))
+    replaces.update(load_conf(settings_file))
+    for file in (local_file, theme_file):
+        try:
+            replaces.update(load_conf(file))
+        except FileNotFoundError:
+            print('File "{}" not found'.format(file))
+
     process_dir(Path('Sessions'), replaces)
+    print('Done! Press Enter', end='')
+    try:
+        input()
+    except KeyboardInterrupt:
+        pass
 
 
 main()
