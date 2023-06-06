@@ -6,7 +6,7 @@ Xterm256Colour\1\
 BoldAsColour\0\
 LineCodePage\UTF-8\
 UseSystemColours\0\
-FontHeight\11\
+FontHeight\10\
 FontIsBold\0\
 Beep\1\
 BeepInd\0\
