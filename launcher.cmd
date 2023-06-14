@@ -1,5 +1,2 @@
 @echo off
-
-set KITTY_PATH=%~dp0
-
-start /D "%KITTY_PATH%" kitty.exe -launcher
+start /D "%~dp0" kitty.exe -launcher
